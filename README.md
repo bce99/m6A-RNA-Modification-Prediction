@@ -21,7 +21,7 @@ m6A represents a chemical modification that can occur in RNA molecules, impactin
 
 ## Installation :desktop_computer:
 
-To get a copy up and running on your AWS Ubuntu machine follow these simple steps (We encourage you to use an instance with robust CPU settings)
+To get a copy up and running on your AWS Ubuntu machine follow these simple steps. Here we use data2 as our test run data (We encourage you to use an instance with robust CPU settings)
 
 
 ### a) Create an isolated environment
