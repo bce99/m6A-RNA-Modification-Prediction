@@ -22,9 +22,6 @@ if __name__ == "__main__":
     # Preprocess parsed data2 into format compatible with trained model
     test_data2, transcript = data_preprocess('Parsed_Data2.csv')
     
-    # # Take the first 500 rows
-    # test_data2 = test_data2.iloc[:5000, :]
-    
     # Load the model from .h5 file
     model = load_model('model_NN_final.h5')
     
