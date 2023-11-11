@@ -104,6 +104,4 @@ After this you will see a new file 'Test_Data2_Result.csv' appearing in your cur
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Template Credits: https://github.com/othneildrew/Best-README-Template
-
 
