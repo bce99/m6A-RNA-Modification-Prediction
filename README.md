@@ -29,75 +29,75 @@ To get a copy up and running on your AWS Ubuntu machine follow these simple step
 Change directory into /ProjectStorage
 
 ```
-cd studies/ProjectStorage/
+$ cd ~/studies/ProjectStorage/
 ```
 
 Download Miniconda Installer
 
 ```
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
 ```
 
 Run Miniconda Installer
 
 ```
-bash miniconda.sh -b -p $HOME/miniconda
+$ bash miniconda.sh -b -p $HOME/miniconda
 ```
 
 Set up conda command in the current shell session
 
 ```
-source $HOME/miniconda/etc/profile.d/conda.sh
+$ source $HOME/miniconda/etc/profile.d/conda.sh
 ```
 
 Initialize Conda
 
 ```
-conda init
+$ conda init
 ```
 
 Activate conda commands in the current terminal session
 
 ```
-source ~/.bashrc
+$ source ~/.bashrc
 ```
 
 Create a virtual environment (You can replace myenv with any name you prefer)
 
 ```
-conda create --name myenv python=3.8
+$ conda create --name myenv python=3.8
 ```
 
 Activate the virtual environment
 
 ```
-conda activate myenv
+$ conda activate myenv
 ```
 ### b) Setup a sync copy of the project repository
 
 Clone the current repo
 
 ```
-git clone https://github.com/bce99/m6A-RNA-Modification-Prediction.git
+$ git clone https://github.com/bce99/m6A-RNA-Modification-Prediction.git
 ```
 
 Change directory into the project folder
 
 ```
-cd m6A-RNA-Modification-Prediction/
+$ cd m6A-RNA-Modification-Prediction/
 ```
 
 Install the required packages
 
 ```
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 ### c) Run the test script
 
 Test run the project (This may take some time depending on your CPU)
 
 ```
-python run_test.py
+$ python run_test.py
 ```
 
 After this you will see a new file 'Test_Data2_Result.csv' appearing in your current directory. This is the successfully generated test run prediction.
