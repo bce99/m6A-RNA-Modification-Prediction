@@ -8,6 +8,7 @@
   - [a) Create an isolated environment](#a-create-an-isolated-environment)
   - [b) Setup a sync copy of the project repository](#b-setup-a-sync-copy-of-the-project-repository)
   - [c) Run the test script](#c-run-the-test-script)
+- [Acknowledgement](#acknowledgement)
 
 
 
@@ -104,4 +105,8 @@ After this you will see a new file 'Test_Data2_Result.csv' appearing in your cur
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Acknowledgement
 
+We extend our heartfelt gratitude to Professor Jonathan Göke and Teaching Assistants Yuk Kei Wan and Cherry Li Chengchen for their invaluable guidance and insightful contributions. Their support immensely enriched our learning experience and significantly contributed to the success of our project.
+
+We also express our appreciation to the entire Goekelab team for their remarkable work on the SG-NEx project, which played a pivotal role in the development of our own project.
